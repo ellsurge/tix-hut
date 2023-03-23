@@ -1,0 +1,31 @@
+{
+  "name": "tix-hut",
+  "version": "1.0.0",
+  "description": "front end for the stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url sass/mystyle.scss css/mystyle.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellsurge/tix-hut.git"
+  },
+  "keywords": [
+    "front-end",
+    "design",
+    "tickets"
+  ],
+  "author": "S3SU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellsurge/tix-hut/issues"
+  },
+  "homepage": "https://github.com/ellsurge/tix-hut#readme",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^8.0.0"
+  }
+}
